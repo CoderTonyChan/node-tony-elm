@@ -23,8 +23,38 @@ http://www.jianshu.com/p/4908912e3535
 
 nodejs + express + mongodb + mongoose + es6/7 + vue + element-ui
 
+## 项目构建
+
+```
+express4
+https://github.com/expressjs/express/wiki
+
+express-generator
+http://www.expressjs.com.cn/starter/generator.html
+
+koa2 wiki
+https://github.com/koajs/koa/wiki
+
+注意 阿里的eggjs 已经支持 koa2
+https://github.com/eggjs/egg
+
+pm2
+npm install -g pm2
+
+mongodb + mongoose
+图形界面
+Robo 3T
+
+supervisor
+
+
+```
+
+
+
 
 ## 项目运行
+
 
 ```
 项目运行之前，请确保系统已经安装以下应用
