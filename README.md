@@ -21,7 +21,7 @@ http://www.jianshu.com/p/4908912e3535
 
 ## 技术栈
 
-nodejs + express + mongodb + mongoose + es6/7 + vue + element-ui
+nodejs + express + mongodb + mongoose + es6/7 + vue
 
 ## 项目构建
 
