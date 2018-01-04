@@ -16,6 +16,8 @@ config-lite 是一个轻量的读取配置文件的模块。config-lite 会根�
 ## pm2
 http://www.jianshu.com/p/4908912e3535
 
+## bodyParser和formidable冲突
+
 
 ## 技术栈
 

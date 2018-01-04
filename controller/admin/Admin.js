@@ -26,6 +26,7 @@ export default class Admin extends AddressComponent {
                 return
             }
             const { user_name, password, status = 1 } = fields;
+            
             try {
                 if (!user_name) {
                     throw new Error('用户名参数错误')

@@ -3,9 +3,9 @@
 import AddressComponent from '../../prototype/AddressComponent'
 import {category} from './Category'
 import ShopModel from '../../models/shopping/shop'
-// import Food from './food'
-// import formidable from 'formidable'
-// import Rating from '../ugc/rating'
+import {food} from './food'
+import formidable from 'formidable'
+import {rating} from '../ugc/rating'
 
 export default class Shop extends AddressComponent{
 	constructor(){
@@ -344,9 +344,9 @@ export default class Shop extends AddressComponent{
 				//保存数据，并增加对应食品种类的数量
 				const shop = new ShopModel(newShop);
 				await shop.save();
-				CategoryHandle.addCategory(fields.category)
-				Rating.initData(restaurant_id);
-				Food.initData(restaurant_id);
+				category.addCategory(fields.category)
+				rating.initData(restaurant_id);
+				food.initData(restaurant_id);
 				res.send({
 					status: 1,
 					sussess: '添加餐馆成功',
